@@ -1,0 +1,28 @@
+@import './variables';
+
+.nav {
+  &__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  &__link {
+    color: $nav-color;
+    text-decoration: none;
+    transition: color 300ms;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  &__link:hover {
+    color: $nav-hover;
+  }
+
+  .is-active {
+    color: $nav-hover;
+    border-bottom: 2px solid $nav-hover;
+    padding-bottom: 4px;
+  }
+}
