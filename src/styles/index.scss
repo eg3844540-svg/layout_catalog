@@ -1,27 +1,6 @@
-@import './variables';
-@import './header';
-@import './catalog';
-@import './card';
-@import './nav';
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-  line-height: 14px;
-  color: $muted-text;
-  font-family: Roboto, sans-serif;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  background-color: $color-white;
-}
-
-img {
-  display: block;
-}
+@import './utils/variables';
+@import './base/base';
+@import './blocks/header';
+@import './blocks/catalog';
+@import './blocks/card';
+@import './blocks/stars';
